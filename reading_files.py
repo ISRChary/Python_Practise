@@ -2,7 +2,7 @@
 
 # Reading files using python
 
-# r- read , w-write, r+ -read and write 
+# r- read , w-write, r+ -read and write , a-append
 
 employee_file = open ("employee_list.txt", "r")
 print(employee_file.read())   #reads whole file
